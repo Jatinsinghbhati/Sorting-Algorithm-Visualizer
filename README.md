@@ -40,3 +40,16 @@ Pass function name as a command line argument from list of functions above
 4. The ```Array``` object has ```swap```, ```set```, ```get_len```, ```get``` methods implemented. Feel free to implement any more, additional methods, that you may see fit.
 5. Make sure you add the sorting algorithm to the Readme file!
 6. Make sure your newly implemented algorithm works, by running `test.py` after appending it to the list of algorithms in `test.py`.
+
+
+#Newly added algorithm - Radix Sort using Counting Sort
+
+**Keeping the description short because of the time limit and giving the reference for more information.**
+
+Radix sort is non-comparative sorting algorithm.
+
+**Benefit:**
+
+Lower Bound for usual comparison based algorithms if O(nlog n ) while for radix sort is O(n+k) time when elements are in range from 1 to k.
+
+**Best reference:** https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/tutorial/
